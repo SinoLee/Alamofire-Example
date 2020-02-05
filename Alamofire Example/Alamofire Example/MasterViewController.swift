@@ -49,7 +49,6 @@ class MasterViewController: UITableViewController {
                 switch segue.identifier! {
                 case "GET":
                     detailViewController.segueIdentifier = "GET"
-                    //let headers = HTTPHeaders({"":""})
                     return AF.request("https://httpbin.org/get")
                 case "POST":
                     detailViewController.segueIdentifier = "POST"
