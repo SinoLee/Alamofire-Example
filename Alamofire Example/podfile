@@ -1,0 +1,6 @@
+# Podfile
+use_frameworks!
+
+target 'Alamofire Example' do
+    pod 'Alamofire', '~> 5.0.0-rc.3'
+end
